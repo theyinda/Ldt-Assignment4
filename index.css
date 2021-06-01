@@ -1,0 +1,153 @@
+/* GLOBAL STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-family: "Lexend Deca", sans-serif;
+  color: #fff;
+  background-color: rgba(26, 23, 23, 0.897);
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+i,
+a,
+button {
+  cursor: pointer;
+}
+
+/* CONTAINER */
+
+.container {
+  display: flex;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+}
+.arrows button {
+  border-radius: 50%;
+  border-style: none;
+  padding: 5px 5px;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.page-right {
+  margin-left: 20px;
+  text-align: center;
+}
+.contact button {
+  border-style: none;
+  padding: 10px 20px;
+  text-align: center;
+  margin-left: 10px;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  width: 100%;
+}
+
+.grid-item {
+  padding: 40px;
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-text {
+  margin: 20px;
+  font-size: 18px;
+  text-align: left;
+}
+.row-one h2 {
+  padding-left: 30px;
+}
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: yellow;
+}
+
+.three {
+  background-color: purple;
+}
+
+.four {
+  background-color: green;
+}
+
+.five {
+  background-color: darksalmon;
+}
+
+.six {
+  background-color: blue;
+}
+
+.row-two {
+  margin-top: 90px;
+}
+.row-two h2 {
+  padding-left: 30px;
+}
+.seven {
+  background-color: violet;
+}
+.eight {
+  background-color: gray;
+}
+.nine {
+  background-color: lawngreen;
+}
+
+.columnTwo {
+  background-color: #000;
+}
+.columnTwo h4 {
+  padding: 20px;
+  margin-left: 30px;
+}
+
+@media (max-width: 550px) {
+  .grid-item {
+    padding: 30px;
+  }
+
+  body {
+    height: 1200px;
+  }
+}
